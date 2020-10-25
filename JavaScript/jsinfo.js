@@ -18,3 +18,7 @@ Exponentiation **. */
 
 alert( 5 % 2 ); // 1, a remainder of 5 divided by 2
 alert( 8 % 3 ); // 2, a remainder of 8 divided by 3
+
+alert( 2 ** 2 ); // 4  (2 multiplied by itself 2 times)
+alert( 2 ** 3 ); // 8  (2 * 2 * 2, 3 times)
+alert( 2 ** 4 ); // 16 (2 * 2 * 2 * 2, 4 times)
