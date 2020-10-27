@@ -65,3 +65,13 @@ alert( +apples + +oranges ); // 5
 
 // the longer variant
 // alert( Number(apples) + Number(oranges) ); // 5
+
+// Assignment = returns a value
+
+let a = 1;
+let b = 2;
+
+let c = 3 - (a = b + 1);
+
+alert( a ); // 3
+alert( c ); // 0
