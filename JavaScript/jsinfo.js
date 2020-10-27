@@ -38,3 +38,17 @@ alert(2 + 2 + '1' ); // "41" and not "221
 
 alert( 6 - '2' ); // 4, converts '2' to a number
 alert( '6' / '2' ); // 3, converts both operands to numbers
+
+// Numerica conversion, unary +
+
+// No effect on numbers
+let x = 1;
+alert( +x ); // 1
+
+let y = -2;
+alert( +y ); // -2
+
+// Converts non-numbers
+alert( +true ); // 1
+alert( +"" );   // 0
+
